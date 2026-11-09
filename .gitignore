@@ -1,0 +1,13 @@
+# Ignore all data files inside the data folder
+data/*
+
+# Except the hidden placeholder file so the folder exists on GitHub
+!data/.gitkeep
+
+# Ignore common large data formats anywhere in the project
+*.csv
+*.xlsx
+*.xls
+*.json
+*.zip
+*.parquet
